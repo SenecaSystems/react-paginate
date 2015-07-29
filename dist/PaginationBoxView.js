@@ -27,9 +27,9 @@ var PaginationBoxView = React.createClass({
       pageNum: 10,
       pageRangeDisplayed: 2,
       marginPagesDisplayed: 3,
-      previousLabel: 'Previous',
-      nextLabel: 'Next',
-      breakLabel: '...'
+      previousLabel: "Previous",
+      nextLabel: "Next",
+      breakLabel: "..."
     };
   },
 
@@ -46,7 +46,7 @@ var PaginationBoxView = React.createClass({
 
     this.setState({ selected: selected });
 
-    if (typeof this.props.clickCallback !== 'undefined' && typeof this.props.clickCallback === 'function') {
+    if (typeof this.props.clickCallback !== "undefined" && typeof this.props.clickCallback === "function") {
       this.props.clickCallback({ selected: selected });
     }
   },
@@ -84,7 +84,7 @@ var PaginationBoxView = React.createClass({
         { onClick: this.handlePreviousPage, className: previousClasses },
         React.createElement(
           'a',
-          { href: '' },
+          { href: "" },
           this.props.previousLabel
         )
       ),
@@ -102,7 +102,7 @@ var PaginationBoxView = React.createClass({
         { onClick: this.handleNextPage, className: nextClasses },
         React.createElement(
           'a',
-          { href: '' },
+          { href: "" },
           this.props.nextLabel
         )
       )

@@ -16,7 +16,7 @@ var PageView = React.createClass({
       { className: cssClass },
       React.createElement(
         'a',
-        _extends({}, this.props, { href: '' }),
+        _extends({}, this.props, { href: "" }),
         this.props.page
       )
     );
