@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "classnames": "^1.2.0",
-    "react-addons-create-fragment": "^0.14.0-beta1"
+    "react-addons-create-fragment": "0.14.0-beta1"
   },
   "devDependencies": {
     "babelify": "^6.0.2",
